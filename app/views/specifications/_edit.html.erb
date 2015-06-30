@@ -1,0 +1,14 @@
+<h3> Details </h3>
+<ul class='list-unstyled'>
+  <% @product.specifications.each do |spec|%>
+    <li>
+        <i class = 'fa fa-times-circle danger'></i>
+      <%= spec.description %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to 'javascript:void(0);', id: 'add-specification-form-toggle' do%>
+      <i class = 'fa fa-plus-circle'> New Spec</i>
+    <% end %>
+  </li>
+</ul>
