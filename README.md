@@ -18,7 +18,7 @@ made gems and tutorials.
 ##crUd
 I highly recommend [best in
 place](http://railscasts.com/episodes/302-in-place-editing?view=asciicast),
-(git [here](https://github.com/bernat/best_in_place).
+(git [here](https://github.com/bernat/best_in_place)).
 
 Read through and watch the rails cast as you need, then implement
 updating name, price, & description for a product.
