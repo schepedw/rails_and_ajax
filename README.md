@@ -11,7 +11,7 @@ made gems and tutorials.
 ## Setup
 1. Clone it
 2. Make sure you have a db role called `weekly_workshop`. You probably
-   do, from previous week's lessons.
+   do, from previous weeks' lessons.
 3. `be rake db:create db:migrate db:seed`
 4. `be rails s`
 
